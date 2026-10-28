@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "group": "io.github.qsxs.cpf.koin",
+  "upstreamVersion": "4.2.2",
+  "kotlin": "2.4.20-0.1.0-08",
+  "gradle": "9.5.0",
+  "targets": {
+    "ohosX64": "ohos_x64",
+    "ohosArm64": "ohos_arm64"
+  },
+  "archive": {
+    "url": "https://codeload.github.com/InsertKoinIO/koin/zip/dc86ef8dd8fbe8564fb7453c03f5b738da3450bb",
+    "sha256": "0d5b47b528ac98ecb7899314044605cb7229b2e48c9afab8420e64b958485014",
+    "size": 1428102,
+    "commit": "dc86ef8dd8fbe8564fb7453c03f5b738da3450bb",
+    "tagObject": "19517919494afed5e3cf6a37a8c9550165c0d484"
+  },
+  "modules": {
+    "koin-core": {
+      "sourceSets": [
+        "commonMain",
+        "nativeMain"
+      ],
+      "sourceEntries": {
+        "commonMain/org/koin/compiler/hints/KoinConfigurationHint.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/compiler/hints/KoinConfigurationHint.kt",
+          "sha256": "1074634aac68056aa38d9e75b10d9985e1d741e049d411f5d5999656e6b73bab",
+          "size": 620
+        },
+        "commonMain/org/koin/core/Koin.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/Koin.kt",
+          "sha256": "0268a66b6c296ac733c2d6eb54718596175ee0641f4ad950bc88957f22c4a8fc",
+          "size": 10932
+        },
+        "commonMain/org/koin/core/KoinApplication.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/KoinApplication.kt",
+          "sha256": "b1997858b902600a30811feaffa53091ee8afd2b217999d1dadd2275dc4a8c4c",
+          "size": 4267
+        },
+        "commonMain/org/koin/core/annotation/KoinAnnotations.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/annotation/KoinAnnotations.kt",
+          "sha256": "4a3a0defdeb7ae8fce77597196f8a67cf501caf94e1e8754bc1a7810f2b31a79",
+          "size": 4802
+        },
+        "commonMain/org/koin/core/component/KoinComponent.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/component/KoinComponent.kt",
+          "sha256": "27d83882254106458cf5c5590f2a3bbd58b45d8e8a5238390d5d0b1273fa5895",
+          "size": 1838
+        },
+        "commonMain/org/koin/core/component/KoinScopeComponent.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/component/KoinScopeComponent.kt",
+          "sha256": "c3f474c16b506d7ddea93aa4cc263939f520cc43d74dda645b6728ec61ad6f1c",
+          "size": 1802
+        },
+        "commonMain/org/koin/core/context/DefaultContextExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/context/DefaultContextExt.kt",
+          "sha256": "342771cbbfa167f01f8657a6637917ab796b87e82daf0e54ccea5979516979f9",
+          "size": 2339
+        },
+        "commonMain/org/koin/core/context/KoinContext.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/context/KoinContext.kt",
+          "sha256": "4529d9c1a27f4ca519c1853e26a5a4334ffd300390b406296f8ae221c89caa0d",
+          "size": 1883
+        },
+        "commonMain/org/koin/core/definition/BeanDefinition.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/definition/BeanDefinition.kt",
+          "sha256": "fd60f9f070f7099ae90798726641c1b9be434253c20c67527f01b5ff827be71a",
+          "size": 5804
+        },
+        "commonMain/org/koin/core/definition/Callbacks.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/definition/Callbacks.kt",
+          "sha256": "2c8b207e9cc99b9d411f86c1f055236bbc5e70dbafb4664521a5313d558a7259",
+          "size": 899
+        },
+        "commonMain/org/koin/core/definition/KoinDefinition.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/definition/KoinDefinition.kt",
+          "sha256": "a4a3d9ad995db7015c68cbaef0ff44a94d04f9a4c29f368c7fe29099817a65da",
+          "size": 255
+        },
+        "commonMain/org/koin/core/error/ClosedScopeException.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/error/ClosedScopeException.kt",
+          "sha256": "c02e4b80a577d1fe22b9f42043ea1474914cc94dd3f159c75d42428eb73853e1",
+          "size": 779
+        },
+        "commonMain/org/koin/core/error/DefinitionOverrideException.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/error/DefinitionOverrideException.kt",
+          "sha256": "7876a9ced806039ae6b1435f5a371f5fe4b21361316529a510704432755cdc65",
+          "size": 784
+        },
+        "commonMain/org/koin/core/error/DefinitionParameterException.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/error/DefinitionParameterException.kt",
+          "sha256": "58e057f57ece00b279806c9a15338dc4ce106214da3e5fa3454163a159389341",
+          "size": 94
+        },
+        "commonMain/org/koin/core/error/InstanceCreationException.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/error/InstanceCreationException.kt",
+          "sha256": "fe7f86761924c56c92e40a9655644bb0b535c9d29c20a455a797880519308d80",
+          "size": 807
+        },
+        "commonMain/org/koin/core/error/KoinApplicationAlreadyStartedException.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/error/KoinApplicationAlreadyStartedException.kt",
+          "sha256": "0e075f9aa67cbfe14cf55fea83098fdd17f133e6f6a77a680fcc27051686ea05",
+          "size": 784
+        },
+        "commonMain/org/koin/core/error/MissingPropertyException.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/error/MissingPropertyException.kt",
+          "sha256": "0c991fbe98c4dae3afb0638084e6f565e3952434176e432a65e666cc03afc71c",
+          "size": 748
+        },
+        "commonMain/org/koin/core/error/MissingScopeValueException.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/error/MissingScopeValueException.kt",
+          "sha256": "c7507d3840a71609131031e36b7bc5f1705f99606e93e0fb66b5eeac981d57c9",
+          "size": 804
+        },
+        "commonMain/org/koin/core/error/NoDefinitionFoundException.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/error/NoDefinitionFoundException.kt",
+          "sha256": "d66b50035a6cab0336ad132f8cfa991eba16570d3bf38159057c6e7b7c7e78e2",
+          "size": 748
+        },
+        "commonMain/org/koin/core/error/NoParameterFoundException.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/error/NoParameterFoundException.kt",
+          "sha256": "f17823bccc7143800b90bc81eb51dd854bb73caefbaf328379d3c0499d6f1310",
+          "size": 791
+        },
+        "commonMain/org/koin/core/error/NoPropertyFileFoundException.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/error/NoPropertyFileFoundException.kt",
+          "sha256": "2457fa03b9d1b5d0c20425387ceb33515f3e7ff7c6c851ec188ed77d2e481caf",
+          "size": 788
+        },
+        "commonMain/org/koin/core/error/NoScopeDefFoundException.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/error/NoScopeDefFoundException.kt",
+          "sha256": "fb1b89eaf58890c1ac9803f2ef4429f055dd2779395587c06618a4514a5ab494",
+          "size": 710
+        },
+        "commonMain/org/koin/core/error/ScopeAlreadyCreatedException.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/error/ScopeAlreadyCreatedException.kt",
+          "sha256": "af877b73ae69959669716a4fc354c1d6a40f87ce8ca1d830c897d4aa9982ae86",
+          "size": 783
+        },
+        "commonMain/org/koin/core/error/ScopeNotCreatedException.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/error/ScopeNotCreatedException.kt",
+          "sha256": "b37c7aaac3c4cbd83d8e55f68fbe2c7e3a415f188bcecf5bdf5a1af6b47835a5",
+          "size": 779
+        },
+        "commonMain/org/koin/core/extension/ExtensionManager.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/extension/ExtensionManager.kt",
+          "sha256": "1248e44618faefee59ec2d830c3e6125d9ac94a808a7707e42255af3feb9a877",
+          "size": 1507
+        },
+        "commonMain/org/koin/core/extension/KoinExtension.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/extension/KoinExtension.kt",
+          "sha256": "f304d2bbf519a7664e71b1ea687a853e33b35ad026612544916198d894d4fe41",
+          "size": 978
+        },
+        "commonMain/org/koin/core/instance/FactoryInstanceFactory.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/instance/FactoryInstanceFactory.kt",
+          "sha256": "ef518b705607dbf7314874768d203accad1255737830748d7a85cbc52e9e29be",
+          "size": 1212
+        },
+        "commonMain/org/koin/core/instance/InstanceFactory.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/instance/InstanceFactory.kt",
+          "sha256": "224732e7b2fb2fb00b09769ce297a3d209ab840c953209ef780e0614d95ad040",
+          "size": 2322
+        },
+        "commonMain/org/koin/core/instance/ResolutionContext.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/instance/ResolutionContext.kt",
+          "sha256": "cf1e40a095a736fca87d5ef04df47005b42ce26ff99ec89a63967499e3fd0fc1",
+          "size": 1703
+        },
+        "commonMain/org/koin/core/instance/ScopedInstanceFactory.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/instance/ScopedInstanceFactory.kt",
+          "sha256": "9c615ec7aa0fdc4a8be816c30d49746300d4002a9e6391b1f1a18343b33469f1",
+          "size": 4067
+        },
+        "commonMain/org/koin/core/instance/SingleInstanceFactory.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/instance/SingleInstanceFactory.kt",
+          "sha256": "564f2c3d3c37bafd2f3e6fdb69e8ea8818bfdc8193914fd92c6fe12d850b0d98",
+          "size": 2000
+        },
+        "commonMain/org/koin/core/logger/EmptyLogger.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/logger/EmptyLogger.kt",
+          "sha256": "b208574f7c8e896c4fef2f59934c0d9cf7990737dc359ddc881d0a8d651a09ba",
+          "size": 784
+        },
+        "commonMain/org/koin/core/logger/Logger.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/logger/Logger.kt",
+          "sha256": "fba78f8e13faa3574b6d73e14f0a373e050363f95ff404b86fd9713b7e300f80",
+          "size": 1464
+        },
+        "commonMain/org/koin/core/module/Markers.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/module/Markers.kt",
+          "sha256": "dc6c52316335f1fc14ad3167078edfd067927fb396f8b801feaf16ae5786f946",
+          "size": 171
+        },
+        "commonMain/org/koin/core/module/Module.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/module/Module.kt",
+          "sha256": "f01357572b075df2876a556a53e200b9ab580f359ae20a7e97f1d3e0b4549a2f",
+          "size": 8400
+        },
+        "commonMain/org/koin/core/module/dsl/FactoryOf.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/module/dsl/FactoryOf.kt",
+          "sha256": "8a139c9211092faa71ceb008193fd4df6e4587f0a4acc23eb33f0f5be5f46e8b",
+          "size": 10526
+        },
+        "commonMain/org/koin/core/module/dsl/New.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/module/dsl/New.kt",
+          "sha256": "c04bc7fddd9d6b9344ed8f217fb0e9825ae6dafe4f13fc9c34a0efaa69a41da1",
+          "size": 9275
+        },
+        "commonMain/org/koin/core/module/dsl/OptionDSL.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/module/dsl/OptionDSL.kt",
+          "sha256": "82130a47e5c0a8139595c04a195a82d832f24d6007c8f04e156fe36e99f98d0b",
+          "size": 5618
+        },
+        "commonMain/org/koin/core/module/dsl/ScopedFactoryOf.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/module/dsl/ScopedFactoryOf.kt",
+          "sha256": "c64162cee393aee0a067a67b03c2147d9d993d9b2cdb2f1bc1550ccf70bfa03f",
+          "size": 10567
+        },
+        "commonMain/org/koin/core/module/dsl/ScopedOf.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/module/dsl/ScopedOf.kt",
+          "sha256": "086d4debd358a171448a66d800f05db0e06ea77fb9514a0074172c5ea5005d49",
+          "size": 10539
+        },
+        "commonMain/org/koin/core/module/dsl/SingleOf.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/module/dsl/SingleOf.kt",
+          "sha256": "6899ea42c3dd77352a329f8dde9a1ac80dfdab6c4118d58e21f6901da4932f60",
+          "size": 10479
+        },
+        "commonMain/org/koin/core/option/KoinOption.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/option/KoinOption.kt",
+          "sha256": "a0c3fc7e894fba3cb86a6ad48df9b862bedd243d7a817e9e265c2f54bfae2bcd",
+          "size": 1385
+        },
+        "commonMain/org/koin/core/parameter/ParametersHolder.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/parameter/ParametersHolder.kt",
+          "sha256": "93563543770fa2c13a28d0c6a7bb71bbb9b548a60bb22b42b4377322050c88f1",
+          "size": 5527
+        },
+        "commonMain/org/koin/core/qualifier/Qualifier.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/qualifier/Qualifier.kt",
+          "sha256": "0884185a67ac5488a1bd9eb0e9b98a34f447bcb68e7cb845a4314bf6608865e4",
+          "size": 1496
+        },
+        "commonMain/org/koin/core/qualifier/StringQualifier.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/qualifier/StringQualifier.kt",
+          "sha256": "3b9ff5a2ef61423b1fc08ed259165c4384f24ba3cb9120952648c448a4f84274",
+          "size": 801
+        },
+        "commonMain/org/koin/core/qualifier/TypeQualifier.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/qualifier/TypeQualifier.kt",
+          "sha256": "8ce2de1c76cb598937a05a52378019b71a37d48c2c0e40abd84751609834d4b2",
+          "size": 1243
+        },
+        "commonMain/org/koin/core/registry/InstanceRegistry.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/registry/InstanceRegistry.kt",
+          "sha256": "753f39e4f2e3a96c1522dcf488926dbfb5aae41b635addacac3862bb73054ada",
+          "size": 8913
+        },
+        "commonMain/org/koin/core/registry/OptionRegistry.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/registry/OptionRegistry.kt",
+          "sha256": "46a9cd955f7001cd4486e9a9616f07b73fa331d94104d365beeb98fa46f0ccc5",
+          "size": 1343
+        },
+        "commonMain/org/koin/core/registry/PropertyRegistry.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/registry/PropertyRegistry.kt",
+          "sha256": "e0d6a13a7e8e903c241bbcd2ee72c059ba5be66e44e74a2c425fef816eee5cee",
+          "size": 1773
+        },
+        "commonMain/org/koin/core/registry/ScopeRegistry.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/registry/ScopeRegistry.kt",
+          "sha256": "d0eaaa314fd241e7c2198b051ac1f2acc62d3b21aa2b60aede55f1772b33004e",
+          "size": 3588
+        },
+        "commonMain/org/koin/core/resolution/CoreResolver.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/resolution/CoreResolver.kt",
+          "sha256": "058dca5ec3f5558f854e05b8bce9d94473fd3fc2e57db7459f777fbd4a841bf4",
+          "size": 6787
+        },
+        "commonMain/org/koin/core/resolution/CoreResolverV2.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/resolution/CoreResolverV2.kt",
+          "sha256": "f77efcd9b8f7c79e6d6db4b7ed53cb02f567daf4f6d56d535133ccf0dd156ece",
+          "size": 9082
+        },
+        "commonMain/org/koin/core/resolution/InstanceResolver.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/resolution/InstanceResolver.kt",
+          "sha256": "c112829b505d3956ae5b748972a5706bc608b4311f1c728d8935a9a25dcdcb17",
+          "size": 1112
+        },
+        "commonMain/org/koin/core/scope/Scope.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/scope/Scope.kt",
+          "sha256": "7b2d05fa954ed09c40711162c7b057d7f02cfbd27c0780872b06e839a192fc9a",
+          "size": 14596
+        },
+        "commonMain/org/koin/core/scope/ScopeCallback.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/scope/ScopeCallback.kt",
+          "sha256": "0f594a9445773e0e44c9e506100dfab8f2c3fefe360c8475b4588e814510ac3e",
+          "size": 815
+        },
+        "commonMain/org/koin/core/time/DurationExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/time/DurationExt.kt",
+          "sha256": "ce4eb6e7e8cd0d85c814f90fe67c500c96a56bb9a86fa8d876e72d474637e998",
+          "size": 122
+        },
+        "commonMain/org/koin/core/time/Measure.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/time/Measure.kt",
+          "sha256": "ea43e2c3bff9abc910d80a73e96d326417f7b663642f99cce51edc340e612073",
+          "size": 1634
+        },
+        "commonMain/org/koin/core/time/Timer.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/core/time/Timer.kt",
+          "sha256": "4b5feb49c5ee67bc8781aeb4294af97427c4baf3aa7caec8c5393b6bd881b11a",
+          "size": 984
+        },
+        "commonMain/org/koin/dsl/DefinitionBinding.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/dsl/DefinitionBinding.kt",
+          "sha256": "9e5c6e9f1ade3709e470df0c09b5c87e5812ceadb1bfed7796c570318d959961",
+          "size": 3062
+        },
+        "commonMain/org/koin/dsl/KoinApplication.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/dsl/KoinApplication.kt",
+          "sha256": "f4a40f55a03de33aeae0f0a28a7228c73cb4d021ca49518f1661581d2c0d69dd",
+          "size": 2504
+        },
+        "commonMain/org/koin/dsl/KoinConfiguration.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/dsl/KoinConfiguration.kt",
+          "sha256": "7a86d4aa9d2843490e518dd8315ff4523d674a4f9afb3bffaee75095cece41f0",
+          "size": 2459
+        },
+        "commonMain/org/koin/dsl/ModuleDSL.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/dsl/ModuleDSL.kt",
+          "sha256": "32793bc89c929006952981fc05ea023093e37204cc1675758daa7000e15733ca",
+          "size": 1072
+        },
+        "commonMain/org/koin/dsl/ScopeDSL.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/dsl/ScopeDSL.kt",
+          "sha256": "b81b02527528e3fb29096acf67ee00058c7a553508b83d42e81c1b0cbf168801",
+          "size": 1634
+        },
+        "commonMain/org/koin/ext/InjectProperty.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/ext/InjectProperty.kt",
+          "sha256": "5708be93c086e9dc359e021a5436222b366d6bf586e13facc9336e25c3300ac4",
+          "size": 451
+        },
+        "commonMain/org/koin/ext/KClassExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/ext/KClassExt.kt",
+          "sha256": "c3265a04974460f598d5b2541e54faf62727459f24d39e9ed5e8484661629e03",
+          "size": 1057
+        },
+        "commonMain/org/koin/ext/StringExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/ext/StringExt.kt",
+          "sha256": "b4cc40ae95115cbbf8f875f712170f0d0a7dc4360ed3c8d4f67daea80c48cc94",
+          "size": 908
+        },
+        "commonMain/org/koin/mp/KoinPlatform.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/mp/KoinPlatform.kt",
+          "sha256": "80570e26aa99d6bb7830e88df464e0fdd61c7a5e14dc7422f1628bee7fd22cf9",
+          "size": 1658
+        },
+        "commonMain/org/koin/mp/KoinPlatformTimeTools.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/mp/KoinPlatformTimeTools.kt",
+          "sha256": "0a4817c07794e9a41978898de04bb24d5625da1284e93b90c7c586a174f2707c",
+          "size": 762
+        },
+        "commonMain/org/koin/mp/KoinPlatformTools.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/mp/KoinPlatformTools.kt",
+          "sha256": "70c43f0aa99a846a9c44fbfa9b97a40a57cc4b0474ef6646a114acd607dbcd72",
+          "size": 1541
+        },
+        "commonMain/org/koin/mp/ThreadLocal.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/mp/ThreadLocal.kt",
+          "sha256": "6eaf677d763776fe8594626204e6ad81ab061a623aa5a2e917be7bd52a98acab",
+          "size": 147
+        },
+        "commonMain/org/koin/plugin/module/dsl/ApplicationDSLExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/plugin/module/dsl/ApplicationDSLExt.kt",
+          "sha256": "1b466b1a043ed8ce51fb3cd94062e6e46d1a1b55ccbc206870a8ff085b048ca3",
+          "size": 7115
+        },
+        "commonMain/org/koin/plugin/module/dsl/BaseDSLExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/plugin/module/dsl/BaseDSLExt.kt",
+          "sha256": "0718cea94d27d58fbd402dbcfe0e2e7f2a644a3ab412a4b617f53e7bfb8bcded",
+          "size": 696
+        },
+        "commonMain/org/koin/plugin/module/dsl/CreateDSL.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/plugin/module/dsl/CreateDSL.kt",
+          "sha256": "d840236deb9f74be58965d2e4e30c12e150e9fa4766a6b477d872fb03625ce49",
+          "size": 7678
+        },
+        "commonMain/org/koin/plugin/module/dsl/ModuleExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/commonMain/kotlin/org/koin/plugin/module/dsl/ModuleExt.kt",
+          "sha256": "ab9f37ac24a17ed617283c5467180ef861353ce0a748573542357938b19b9e10",
+          "size": 4464
+        },
+        "nativeMain/org/koin/core/context/GlobalContext.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/nativeMain/kotlin/org/koin/core/context/GlobalContext.kt",
+          "sha256": "c45797301c9d9b49546315fbfd5d92fae8e4b271372900dfe81e125e74c6fcdb",
+          "size": 3050
+        },
+        "nativeMain/org/koin/core/logger/PrintLogger.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/nativeMain/kotlin/org/koin/core/logger/PrintLogger.kt",
+          "sha256": "46edb723be4803ae753c5060b8f8287aad56a99bc74e3551aad9a01f05b7257c",
+          "size": 896
+        },
+        "nativeMain/org/koin/core/module/ModuleExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/nativeMain/kotlin/org/koin/core/module/ModuleExt.kt",
+          "sha256": "61b718a8f9943ccd646cb0c3a8f555a189652c88d1a0d12611222ac0442192e8",
+          "size": 2175
+        },
+        "nativeMain/org/koin/mp/KoinPlatformTimeTools.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/nativeMain/kotlin/org/koin/mp/KoinPlatformTimeTools.kt",
+          "sha256": "509df9e19a09dbed6a0a604b49c550ec65471ee4833c06574abab436aa302831",
+          "size": 240
+        },
+        "nativeMain/org/koin/mp/KoinPlatformTools.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/nativeMain/kotlin/org/koin/mp/KoinPlatformTools.kt",
+          "sha256": "9915f78d936708c7a61adbace390c33cc521c8aa0ba682af1842b07ce9131ebb",
+          "size": 1330
+        },
+        "nativeMain/org/koin/mp/KoinPlatformTools.native.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/nativeMain/kotlin/org/koin/mp/KoinPlatformTools.native.kt",
+          "sha256": "ab99b7da277b058a201cd367310643c617f292b9c08badfcef890be89e005de3",
+          "size": 196
+        },
+        "nativeMain/org/koin/mp/ThreadLocal.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core/src/nativeMain/kotlin/org/koin/mp/ThreadLocal.kt",
+          "sha256": "47a6785a49acd53066acea7a790254b4eb643c6a61f51b7e667bec5790b83644",
+          "size": 234
+        }
+      },
+      "sourceFileCount": 81,
+      "projectDirectory": "core/koin-core",
+      "sourceSetParents": {
+        "commonMain": [],
+        "nativeMain": [
+          "commonMain"
+        ],
+        "ohosMain": [
+          "nativeMain"
+        ],
+        "ohosX64Main": [
+          "ohosMain"
+        ],
+        "ohosArm64Main": [
+          "ohosMain"
+        ]
+      }
+    },
+    "koin-core-viewmodel": {
+      "sourceSets": [
+        "commonMain"
+      ],
+      "sourceEntries": {
+        "commonMain/org/koin/core/module/dsl/ModuleExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/core/module/dsl/ModuleExt.kt",
+          "sha256": "4f8b2120bc7ab02c544f3e2db4aadd935974acc6c83d37de678e2c153e56b566",
+          "size": 1311
+        },
+        "commonMain/org/koin/core/module/dsl/ScopeSetExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/core/module/dsl/ScopeSetExt.kt",
+          "sha256": "85611d94f2eda077e135cb295a8ee5f8522e394b31ca51a65bd3f7218287c7ef",
+          "size": 1306
+        },
+        "commonMain/org/koin/core/module/dsl/ScopeViewModelOf.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/core/module/dsl/ScopeViewModelOf.kt",
+          "sha256": "64c6511affa54fee929ea4865a3c5fb6bf4011aa55085e1ec30a42419cfc2ceb",
+          "size": 11063
+        },
+        "commonMain/org/koin/core/module/dsl/ViewModelOf.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/core/module/dsl/ViewModelOf.kt",
+          "sha256": "fae6cb116c548b6b760b007a336ef091e4d1a5f9c6a0678a539884b7f9d5e5dc",
+          "size": 11001
+        },
+        "commonMain/org/koin/plugin/module/dsl/ViewModelDSLExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/plugin/module/dsl/ViewModelDSLExt.kt",
+          "sha256": "ef3161b3be628f57a0a826749a3e067f0ae65572a6c865d1aadb9882abea7e7e",
+          "size": 445
+        },
+        "commonMain/org/koin/plugin/module/dsl/ViewModelModuleExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/plugin/module/dsl/ViewModelModuleExt.kt",
+          "sha256": "502de3365cc0dfd5403bd5faff9b73044101e3dd04a6d4cbf206de9083ae9610",
+          "size": 1398
+        },
+        "commonMain/org/koin/viewmodel/BundleExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/viewmodel/BundleExt.kt",
+          "sha256": "551cd20715396322b08db6c7b5cdf2e0fb966580dfdc05a10d010aa00833fc21",
+          "size": 2027
+        },
+        "commonMain/org/koin/viewmodel/CreationExtrasExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/viewmodel/CreationExtrasExt.kt",
+          "sha256": "cc617ac0b2c4a2a31336836319bdee305a9041fe1bda6bffa7626222c321fff2",
+          "size": 1046
+        },
+        "commonMain/org/koin/viewmodel/GetViewModel.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/viewmodel/GetViewModel.kt",
+          "sha256": "fab61a8d5196236c909965cb5a54879d2ec1b8fbabdbd52c7cb0cb9255965957",
+          "size": 3245
+        },
+        "commonMain/org/koin/viewmodel/factory/AndroidParametersHolder.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/viewmodel/factory/AndroidParametersHolder.kt",
+          "sha256": "f90a47393ecaacde2ae087fe01f9d5ac9216047f0eb169f51d5302ca4b38d1f3",
+          "size": 2523
+        },
+        "commonMain/org/koin/viewmodel/factory/KoinViewModelFactory.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/viewmodel/factory/KoinViewModelFactory.kt",
+          "sha256": "30b672539078644bfd9af3565ca79fd8d42b05d1f4015612d08e033ac8cbb30a",
+          "size": 2871
+        },
+        "commonMain/org/koin/viewmodel/factory/ViewModelScopeAutoCloseable.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/viewmodel/factory/ViewModelScopeAutoCloseable.kt",
+          "sha256": "675fbe3267551d09ba4cf390c7632c87fb56772f3dc1ce27923677d531c70947",
+          "size": 1084
+        },
+        "commonMain/org/koin/viewmodel/scope/ScopeViewModel.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/viewmodel/scope/ScopeViewModel.kt",
+          "sha256": "f9a5d2de195bf103a4973a262c6dbb58b62f0b340eeb180456f07abd935765bd",
+          "size": 2525
+        },
+        "commonMain/org/koin/viewmodel/scope/ViewModelScopeArchetype.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/viewmodel/scope/ViewModelScopeArchetype.kt",
+          "sha256": "f9bb14d76743a404d556383dbaab9840dbd75f7ac24a3e9ffa9775bdc10632b0",
+          "size": 802
+        },
+        "commonMain/org/koin/viewmodel/scope/ViewModelScopeArchetypeDSL.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/core/koin-core-viewmodel/src/commonMain/kotlin/org/koin/viewmodel/scope/ViewModelScopeArchetypeDSL.kt",
+          "sha256": "6fcff35f49a12be46872824f07c903078fb5a1f445ae5cf72e3c6805233c5df8",
+          "size": 1483
+        }
+      },
+      "sourceFileCount": 15,
+      "projectDirectory": "core/koin-core-viewmodel",
+      "sourceSetParents": {
+        "commonMain": [],
+        "nativeMain": [
+          "commonMain"
+        ],
+        "ohosMain": [
+          "nativeMain"
+        ],
+        "ohosX64Main": [
+          "ohosMain"
+        ],
+        "ohosArm64Main": [
+          "ohosMain"
+        ]
+      }
+    },
+    "koin-compose": {
+      "sourceSets": [
+        "commonMain",
+        "nativeMain"
+      ],
+      "sourceEntries": {
+        "commonMain/org/koin/compose/ComposeContextWrapper.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose/src/commonMain/kotlin/org/koin/compose/ComposeContextWrapper.kt",
+          "sha256": "3ef522d81666c05a7e1014a1ff2b771b1d48a65328e041cd797f6fe82aa0fa42",
+          "size": 1531
+        },
+        "commonMain/org/koin/compose/Inject.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose/src/commonMain/kotlin/org/koin/compose/Inject.kt",
+          "sha256": "cc5728d2ac626ae82e402dd1bbdf975b95bed43266f6dec3049a61c78b2fcabe",
+          "size": 2863
+        },
+        "commonMain/org/koin/compose/KoinApplication.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose/src/commonMain/kotlin/org/koin/compose/KoinApplication.kt",
+          "sha256": "e4cd2cc45cdb54336fc40d72eef7b97e009fe9149a27228fd7e38f8006201b4c",
+          "size": 11646
+        },
+        "commonMain/org/koin/compose/application/CompositionKoinApplicationLoader.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose/src/commonMain/kotlin/org/koin/compose/application/CompositionKoinApplicationLoader.kt",
+          "sha256": "b8d76eb7ddcf8206d7802a0005e4d3070840a0cbc7f4c8be384a8c61c274778e",
+          "size": 1726
+        },
+        "commonMain/org/koin/compose/application/RememberKoinApplication.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose/src/commonMain/kotlin/org/koin/compose/application/RememberKoinApplication.kt",
+          "sha256": "ee587f3626053fd5d3e306b83f9221ced746af79cf8fdf5ecd527227874f5d31",
+          "size": 2058
+        },
+        "commonMain/org/koin/compose/error/UnknownKoinContext.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose/src/commonMain/kotlin/org/koin/compose/error/UnknownKoinContext.kt",
+          "sha256": "3e8cd47bc323883c16d2039ca2be6bb782382288876eb6ebd2f5edac52c091b0",
+          "size": 732
+        },
+        "commonMain/org/koin/compose/module/CompositionKoinModuleLoader.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose/src/commonMain/kotlin/org/koin/compose/module/CompositionKoinModuleLoader.kt",
+          "sha256": "91ca7bd5ad94dd10a622f1e5b333e937ab2f61c5aed34b9b263b29c3360f41b6",
+          "size": 1609
+        },
+        "commonMain/org/koin/compose/module/RememberModules.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose/src/commonMain/kotlin/org/koin/compose/module/RememberModules.kt",
+          "sha256": "e41d550b9035e64df2b4fdd7e7001bbfa6c1093450f463580824be093ae8bfc4",
+          "size": 1803
+        },
+        "commonMain/org/koin/compose/scope/CompositionKoinScopeLoader.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose/src/commonMain/kotlin/org/koin/compose/scope/CompositionKoinScopeLoader.kt",
+          "sha256": "bd3f88317ad1423c3a5e3fcb9b2a04f42403f2d11ea29af8c1b49be874b331de",
+          "size": 1530
+        },
+        "commonMain/org/koin/compose/scope/KoinScope.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose/src/commonMain/kotlin/org/koin/compose/scope/KoinScope.kt",
+          "sha256": "aa6eaf04cac77aad98268d36bc218468c1a0769fd3fa205615917dee8ba0e5e9",
+          "size": 2711
+        },
+        "commonMain/org/koin/compose/scope/RememberScopes.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose/src/commonMain/kotlin/org/koin/compose/scope/RememberScopes.kt",
+          "sha256": "20aebb004be61c7ab6a5b6a85aa67ac6fca92c8f3d3150ea98cf7faf805c2b27",
+          "size": 1427
+        },
+        "commonMain/org/koin/compose/scope/UnboundKoinScope.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose/src/commonMain/kotlin/org/koin/compose/scope/UnboundKoinScope.kt",
+          "sha256": "b788d2aa2ce5f6ba13bd8cea858ad7113af3ad7d2623f30cd528a54e0b192e17",
+          "size": 2891
+        },
+        "nativeMain/org/koin/compose/KoinApplication.native.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose/src/nativeMain/kotlin/org/koin/compose/KoinApplication.native.kt",
+          "sha256": "c1d05aacd9648f861ab4284d6806a0ce56f8b45649d66f2c8ebe394120f9af76",
+          "size": 677
+        }
+      },
+      "sourceFileCount": 13,
+      "projectDirectory": "compose/koin-compose",
+      "sourceSetParents": {
+        "commonMain": [],
+        "nativeMain": [
+          "commonMain"
+        ],
+        "ohosMain": [
+          "nativeMain"
+        ],
+        "ohosX64Main": [
+          "ohosMain"
+        ],
+        "ohosArm64Main": [
+          "ohosMain"
+        ]
+      }
+    },
+    "koin-compose-viewmodel": {
+      "sourceSets": [
+        "commonMain"
+      ],
+      "sourceEntries": {
+        "commonMain/org/koin/compose/viewmodel/ViewModel.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose-viewmodel/src/commonMain/kotlin/org/koin/compose/viewmodel/ViewModel.kt",
+          "sha256": "80558a08c38e2ee24ae4fa47b542aca29897317750df1e3efed916fb2f38dbc2",
+          "size": 1997
+        },
+        "commonMain/org/koin/compose/viewmodel/dsl/ModuleExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose-viewmodel/src/commonMain/kotlin/org/koin/compose/viewmodel/dsl/ModuleExt.kt",
+          "sha256": "9773f909e27aa37a2dfc01406c82a4f2fadc9bedb01588d45bfa2a6175075d12",
+          "size": 1511
+        },
+        "commonMain/org/koin/compose/viewmodel/dsl/ScopeSetExt.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose-viewmodel/src/commonMain/kotlin/org/koin/compose/viewmodel/dsl/ScopeSetExt.kt",
+          "sha256": "2c027c8c2ef597e9a15b39a6b2e6c5abddbd5c5934509e0f7f6b356fad6a67cd",
+          "size": 1506
+        },
+        "commonMain/org/koin/compose/viewmodel/dsl/ScopeViewModelOf.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose-viewmodel/src/commonMain/kotlin/org/koin/compose/viewmodel/dsl/ScopeViewModelOf.kt",
+          "sha256": "9ee98f8e8836c5bf6d93771c1f6b393bf7480bbf76d31152c45dfc70749d4fd5",
+          "size": 13594
+        },
+        "commonMain/org/koin/compose/viewmodel/dsl/ViewModelOf.kt": {
+          "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/projects/compose/koin-compose-viewmodel/src/commonMain/kotlin/org/koin/compose/viewmodel/dsl/ViewModelOf.kt",
+          "sha256": "3c41113ff1583ed948cf63f96bd96458cf236d4d108e3d11fba28a018dcccca8",
+          "size": 13533
+        }
+      },
+      "sourceFileCount": 5,
+      "projectDirectory": "compose/koin-compose-viewmodel",
+      "sourceSetParents": {
+        "commonMain": [],
+        "nativeMain": [
+          "commonMain"
+        ],
+        "ohosMain": [
+          "nativeMain"
+        ],
+        "ohosX64Main": [
+          "ohosMain"
+        ],
+        "ohosArm64Main": [
+          "ohosMain"
+        ]
+      }
+    }
+  },
+  "projectDependencies": {
+    "koin-core": [],
+    "koin-core-viewmodel": [
+      "koin-core"
+    ],
+    "koin-compose": [
+      "koin-core"
+    ],
+    "koin-compose-viewmodel": [
+      "koin-compose",
+      "koin-core-viewmodel"
+    ]
+  },
+  "runtimeBoundary": "Library publication only; actual Core strict and Compose default-Skia consumers/lifecycle/logging remain NOT_RUN",
+  "license": {
+    "entry": "koin-dc86ef8dd8fbe8564fb7453c03f5b738da3450bb/LICENSE",
+    "sha256": "de60ee2e91638b1f6eb0267af323bf9548fa860bc39cf0e5cac2de34b764c2f4"
+  }
+}

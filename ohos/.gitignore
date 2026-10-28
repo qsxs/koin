@@ -1,0 +1,4 @@
+.local/
+.gradle/
+build/
+.kotlin/

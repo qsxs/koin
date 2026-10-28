@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "version": "2.1.0-1.1.0",
+  "repository": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/",
+  "upstreamEvidenceCommit": "35ce89e5f91a23aaa5657c21510afd6ee593fad9",
+  "producerCompiler": "2.2.21-1.1.0",
+  "koinCompiler": "2.4.20-0.1.0-08",
+  "entries": [
+    {
+      "artifact": "stately-concurrency",
+      "kind": "rootGmm",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrency/2.1.0-1.1.0/stately-concurrency-2.1.0-1.1.0.module",
+      "bytes": 47518,
+      "sha256": "71b7e26456f5537e58982222e6b74662a4df01951220cb7141a37d9a2916ccb9"
+    },
+    {
+      "artifact": "stately-concurrent-collections",
+      "kind": "rootGmm",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrent-collections/2.1.0-1.1.0/stately-concurrent-collections-2.1.0-1.1.0.module",
+      "bytes": 49754,
+      "sha256": "85d4ec28a832e29f1c4afc4f568700e20cc1b445bd21b9da0ed5bcc18c0ce178"
+    },
+    {
+      "artifact": "stately-strict",
+      "kind": "rootGmm",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-strict/2.1.0-1.1.0/stately-strict-2.1.0-1.1.0.module",
+      "bytes": 46335,
+      "sha256": "04be00e1938eddc53edacc1173516fa7ddd2c172da0b28916d4c574cf68d6450"
+    },
+    {
+      "artifact": "stately-concurrency-ohosx64",
+      "kind": "leafGmm",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrency-ohosx64/2.1.0-1.1.0/stately-concurrency-ohosx64-2.1.0-1.1.0.module",
+      "bytes": 2723,
+      "sha256": "2e19de714bf3f1b48d2e76c8189f28cd449fd37974d3278279a64f7f6cb4a411"
+    },
+    {
+      "artifact": "stately-concurrency-ohosarm64",
+      "kind": "leafGmm",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrency-ohosarm64/2.1.0-1.1.0/stately-concurrency-ohosarm64-2.1.0-1.1.0.module",
+      "bytes": 2739,
+      "sha256": "1baca5fcebd8d1a917754c8b9841adaa6682f58ad21b74540bb4ff6668329903"
+    },
+    {
+      "artifact": "stately-concurrent-collections-ohosx64",
+      "kind": "leafGmm",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrent-collections-ohosx64/2.1.0-1.1.0/stately-concurrent-collections-ohosx64-2.1.0-1.1.0.module",
+      "bytes": 2804,
+      "sha256": "39b21d508fbe5953a769dd53313a3d705016989ed72e90ffe0f23ede9e6bfd61"
+    },
+    {
+      "artifact": "stately-concurrent-collections-ohosarm64",
+      "kind": "leafGmm",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrent-collections-ohosarm64/2.1.0-1.1.0/stately-concurrent-collections-ohosarm64-2.1.0-1.1.0.module",
+      "bytes": 2820,
+      "sha256": "ed509368dfb944c41600eef6f784cb1e05f30ce61f37b562ec9a63670a138e83"
+    },
+    {
+      "artifact": "stately-strict-ohosx64",
+      "kind": "leafGmm",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-strict-ohosx64/2.1.0-1.1.0/stately-strict-ohosx64-2.1.0-1.1.0.module",
+      "bytes": 2520,
+      "sha256": "f5b29e65ed850c0fd758e78c520c072c26a08a616c806b81e09e13438c5e249b"
+    },
+    {
+      "artifact": "stately-strict-ohosarm64",
+      "kind": "leafGmm",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-strict-ohosarm64/2.1.0-1.1.0/stately-strict-ohosarm64-2.1.0-1.1.0.module",
+      "bytes": 2536,
+      "sha256": "fe9b5771002da7fd6cf1404807e4667d5c9e91b7a5329c43b142f0ec80079391"
+    },
+    {
+      "artifact": "stately-concurrency-ohosx64",
+      "kind": "klib",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrency-ohosx64/2.1.0-1.1.0/stately-concurrency-ohosx64-2.1.0-1.1.0.klib",
+      "bytes": 25087,
+      "sha256": "38d71f546a7b3f9ddde2f058786e6991ff789cae3922ad5dd7de5627f5f88da3"
+    },
+    {
+      "artifact": "stately-concurrency-ohosx64",
+      "kind": "sourcesJar",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrency-ohosx64/2.1.0-1.1.0/stately-concurrency-ohosx64-2.1.0-1.1.0-sources.jar",
+      "bytes": 12618,
+      "sha256": "362b50dc3394a1c4e56d538fb50d78d9d464c7f701a06cb019ddb2e68ef8c715"
+    },
+    {
+      "artifact": "stately-concurrency-ohosarm64",
+      "kind": "klib",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrency-ohosarm64/2.1.0-1.1.0/stately-concurrency-ohosarm64-2.1.0-1.1.0.klib",
+      "bytes": 25100,
+      "sha256": "59f1c2d93a6fa78e0f0bded42fd34292c3dffbccce2a7a38d1d571d319b44f77"
+    },
+    {
+      "artifact": "stately-concurrency-ohosarm64",
+      "kind": "sourcesJar",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrency-ohosarm64/2.1.0-1.1.0/stately-concurrency-ohosarm64-2.1.0-1.1.0-sources.jar",
+      "bytes": 12618,
+      "sha256": "362b50dc3394a1c4e56d538fb50d78d9d464c7f701a06cb019ddb2e68ef8c715"
+    },
+    {
+      "artifact": "stately-concurrent-collections-ohosx64",
+      "kind": "klib",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrent-collections-ohosx64/2.1.0-1.1.0/stately-concurrent-collections-ohosx64-2.1.0-1.1.0.klib",
+      "bytes": 25992,
+      "sha256": "52affc794f43ba8e139488c4dffe03041a9273fbb789ac0e902af61cbab3a3de"
+    },
+    {
+      "artifact": "stately-concurrent-collections-ohosx64",
+      "kind": "sourcesJar",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrent-collections-ohosx64/2.1.0-1.1.0/stately-concurrent-collections-ohosx64-2.1.0-1.1.0-sources.jar",
+      "bytes": 4342,
+      "sha256": "1507f2df766f32c7a265197ed3ad4f568e773b3e2d1f06e65b54386781df6f1a"
+    },
+    {
+      "artifact": "stately-concurrent-collections-ohosarm64",
+      "kind": "klib",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrent-collections-ohosarm64/2.1.0-1.1.0/stately-concurrent-collections-ohosarm64-2.1.0-1.1.0.klib",
+      "bytes": 26003,
+      "sha256": "b2561acd78b9d8dfb1cf5906d7d617a7d8a94322cfeee5371dc4ea851e3350e7"
+    },
+    {
+      "artifact": "stately-concurrent-collections-ohosarm64",
+      "kind": "sourcesJar",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-concurrent-collections-ohosarm64/2.1.0-1.1.0/stately-concurrent-collections-ohosarm64-2.1.0-1.1.0-sources.jar",
+      "bytes": 4342,
+      "sha256": "1507f2df766f32c7a265197ed3ad4f568e773b3e2d1f06e65b54386781df6f1a"
+    },
+    {
+      "artifact": "stately-strict-ohosx64",
+      "kind": "klib",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-strict-ohosx64/2.1.0-1.1.0/stately-strict-ohosx64-2.1.0-1.1.0.klib",
+      "bytes": 5010,
+      "sha256": "ec1b0c49729d0f27799bac2220c93b00eccabf5afd8b5dc04822ff8ce107ae81"
+    },
+    {
+      "artifact": "stately-strict-ohosx64",
+      "kind": "sourcesJar",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-strict-ohosx64/2.1.0-1.1.0/stately-strict-ohosx64-2.1.0-1.1.0-sources.jar",
+      "bytes": 2875,
+      "sha256": "c4375fd392ba15ec3a24b582589c87548e73d339672679ed06913d857a9d5297"
+    },
+    {
+      "artifact": "stately-strict-ohosarm64",
+      "kind": "klib",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-strict-ohosarm64/2.1.0-1.1.0/stately-strict-ohosarm64-2.1.0-1.1.0.klib",
+      "bytes": 5022,
+      "sha256": "da8b5a797289c49b15a8bdc012fae804790bd2b14d956f3e7148d1f97861ec7c"
+    },
+    {
+      "artifact": "stately-strict-ohosarm64",
+      "kind": "sourcesJar",
+      "url": "https://maven.eazytec-cloud.com/nexus/repository/maven-inner/co/touchlab/stately-strict-ohosarm64/2.1.0-1.1.0/stately-strict-ohosarm64-2.1.0-1.1.0-sources.jar",
+      "bytes": 2875,
+      "sha256": "c4375fd392ba15ec3a24b582589c87548e73d339672679ed06913d857a9d5297"
+    }
+  ]
+}
